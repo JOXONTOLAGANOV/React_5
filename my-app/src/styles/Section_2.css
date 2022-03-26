@@ -1,0 +1,29 @@
+.sect2_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sect3_text{
+    margin-top: 150px;
+    color: #333333;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.sect2_text{
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.sect2_li{
+    transition: .3s;
+    margin: 5px;
+}
+
+.sect2_li:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: -12px 7px 27px rgba(0, 0, 0, 0.3);
+}

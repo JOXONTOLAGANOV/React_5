@@ -1,0 +1,49 @@
+.Headr{
+    background-image: url("../img/bgc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-position: center;
+    position: relative;
+    bottom: 55px;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+
+.main_text{
+    font-size: 36px;
+    color: white;
+}
+
+.main_link{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 1px white solid;
+    padding: 8px 28px;
+    background-color: #333333;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.main_link:hover{
+    background-color: rgba(0, 100, 0, 0.349);
+    border-radius: 17px;
+    transform: scale(1.1,1.2);
+}
+
+.img{
+    width: 100%;
+    position: relative;
+    top: 136px;
+}
+
+.span{
+    border: 1px white solid;
+    width: 100%;
+    position: relative;
+    top: 630px;
+}
