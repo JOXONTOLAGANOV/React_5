@@ -10,6 +10,7 @@ a{
     color: #000;
 }
 
+
 ul, li{
     list-style: none;
 }
@@ -22,66 +23,135 @@ body{
     font-family: 'Lora', serif;
 }
 
+.logo{
+    width: 216px;
+    height: 52px;
+   
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
 }
 
-
-
-.nav_ul{
+.navbar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-.nav_li{
-    display: flex;
-    z-index: 3;
-    transition: .3s;
-}
-.nav_li:hover{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.705);
-}
-
-.nav_li1{
-    display: flex;
-    z-index: 3;
-}
-
-.nav_link{
+    align-items: center;
+    height: 75px;
+    background-color: #333333;
     color: white;
-    margin-top: 20px;
 }
 
-.headr_img{
-    position: relative;
-    top: 15px;
-    transition: .3s;
-    padding: 0px 20px;
-    border-radius: 17px;
-}
-
-.headr_img:hover{
-    transform: scale(1.1,1.1);
-}
-
-.phot{
-    width: 18px;
-    height: 18px;
-    position: relative;
-    right: 8px;
-    top: 2px;
-}
-
-.nav_li12{
+.nav-links{
     display: flex;
-    z-index: 3;
-    position: relative;
-    top: 6px;
-    left: 28px;
+    justify-content: flex-start;
+    list-style: none;
+    width: 75px;
+    margin-left: 100px;
 }
 
-.nav_li12:hover{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+/* .home
+.about
+.sakills
+.contact
+.signup */
+li{
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen  and (max-width:1100px){
+    .logo{
+        margin-left: 320px;
+    }
+
+    .nav-links{
+        display: none;
+
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+
+        .home,
+        .about,
+        .sakills,
+        .contact,
+        .signup {
+            color: white;
+            text-align: center;
+            padding: 32px;
+            width: 100%;
+            transition: all 0.5s ease;
+        }
+
+        .mobile-menu-icon{
+            display: block;
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            background-color: #333333;
+            outline: none;
+            border: none;
+            top: 15px;
+            margin-left: 30px;
+
+        }
+
+}
+
+@media screen  and (max-width:800px){
+
+    .logo{
+        margin-left: 220px;
+    }
+}
+
+
+@media screen  and (max-width:650px){
+
+    .logo{
+        margin-left: 190px;
+    }
+}
+
+
+@media screen  and (max-width:580px){
+
+    .logo{
+        margin-left: 170px;
+    }
+}
+
+
+
+@media screen  and (max-width:520px){
+
+    .logo{
+        margin-left: 130px;
+    }
+}
+
+
+@media screen  and (max-width:450px){
+
+    .logo{
+        margin-left: 100px;
+    }
 }

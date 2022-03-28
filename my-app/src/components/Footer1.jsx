@@ -7,6 +7,7 @@ function Footer1() {
   return (
     <div className='footer1'>
         <div className="container">
+            <div className="footer_span">
             <ul className="footer_1_ul">
                 <li className="footer_li_1">
                     <h2 className='footer1_text'>Полезные </h2>
@@ -27,7 +28,7 @@ function Footer1() {
                    
                 </li> 
 
-                <li className="footer_li_1">
+                {/* <li className="footer_li_1">
                     <h1 className='footer1_text1'>контакты</h1>  
                     <div className="div_11"></div>   
                     <p className='footer1_text_'>8 (812) 234-56-55</p> 
@@ -40,9 +41,10 @@ function Footer1() {
                     <h1 className='footer1_text'>социальные сети</h1>   
                     <div className="div_1"></div>  
                     <p className='footer1_text_'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</p>
-                </li> 
+                </li>  */}
             </ul>    
-            <div className="qwerty"></div>
+            </div>
+            {/* <div className="qwerty"></div>
             <div className="www">
                     <ul className="ww">
                         <li className="wwww">
@@ -61,7 +63,7 @@ function Footer1() {
                             <h3 className="text_ww">Сделано Figma.info</h3>    
                         </li> 
                     </ul>
-            </div>
+            </div> */}
         </div>    
     </div>
   )

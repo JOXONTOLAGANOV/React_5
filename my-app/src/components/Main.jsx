@@ -5,6 +5,7 @@ import Photo1 from "../img/first-screen__brands.png"
 function Main() {
   return (
     <div className='Headr'>
+      <div className="headr_1">
         <div className='span'></div>
         <div className="container">
         <div className="text">
@@ -12,6 +13,7 @@ function Main() {
         <a href="#" className='main_link'>каталог изделий </a>
             <div className="box">
                 <img src={Photo1}  className='img'/>
+            </div>
             </div>
         </div>
         </div>

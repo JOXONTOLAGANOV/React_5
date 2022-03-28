@@ -1,9 +1,12 @@
 .footer_1{
     background-image: url("../img/Rectangle\ 6.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 478px;
     background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -16,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .input{
@@ -34,12 +37,12 @@
 .footer_text{
     margin-top: 100px;
     position: relative;
-    top: 80px;
+    top: 0px;
 }
 
 .footer_text1{
     position: relative;
-    top: 100px;
+    top: 10px;
 }
 
 .footer_box{
@@ -62,4 +65,65 @@
     height: 17px;
     position: relative;
     right: 2px;
+}
+
+
+@media  (max-width:850px){
+
+    .footer_link{
+        position: relative;
+        left: 0px;
+        width: 71%;
+        margin-bottom: 10px;
+    }
+
+    .boxx{
+        flex-wrap: wrap;
+    }
+
+    .footer_box{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    
+}
+
+@media  (max-width:750px){
+
+    .footer_link{
+        position: relative;
+        left: 0px;
+        width: 71%;
+    }
+    
+}
+
+@media  (max-width:650px){
+
+    .footer_link{
+        position: relative;
+        left: 0px;
+        width: 71%;
+    }
+    
+}
+
+@media  (max-width:550px){
+
+    .footer_link{
+        position: relative;
+        left: 0px;
+        width: 75%;
+    }
+    
+    .footer_box{
+       text-align: left;
+    }
+
+    .footer_p_text1{
+        text-align: left;
+        position: relative;
+        left: 3px;
+    }
+
 }

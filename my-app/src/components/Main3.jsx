@@ -62,27 +62,27 @@ function Main3() {
             </li> 
 
             <li className="main_li_1">
-                <img src={img_2_} className="main3_img"/>
+                <img src={img_2_} className="box_main3_img"/>
                 <p className="mian3_text_big">Подвеска</p>
                 <h3 className="main_text_big_1">Dolce & Gabanna</h3>
                 <a href="#" className="main3_link">175 000 ₽</a>
             </li> 
 
             <li className="main_li_1">
-                <img src={img_2_} className="main3_img"/>
+                <img src={img_2_} className="box_main3_img"/>
                 <p className="mian3_text_big">Подвеска</p>
                 <h3 className="main_text_big_1">Dolce & Gabanna</h3>
                 <a href="#" className="main3_link">175 000 ₽</a>
             </li> 
 
             <li className="main_li_1">
-                <img src={img_2_} className="main3_img"/>
+                <img src={img_2_} className="box_main3_img"/>
                 <p className="mian3_text_big">Подвеска</p>
                 <h3 className="main_text_big_1">Dolce & Gabanna</h3>
                 <a href="#" className="main3_link">175 000 ₽</a>
             </li> 
-            <a href="#" className="main3_link_1">покажите еще</a>
         </ul>
+        <a href="#" className="main3_link_1">покажите еще</a>
         <div className="main3_box"></div>
 
         <div className="imges">

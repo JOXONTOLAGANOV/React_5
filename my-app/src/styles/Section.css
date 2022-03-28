@@ -6,8 +6,11 @@
 .sect_img{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
+    width: 1250px;
+    position: relative;
+    right: 50px;
 }
 
 .sect_li_img{
@@ -50,4 +53,128 @@
 .section_text1{
     color: #333333;
     font-size: 30px;
+}
+
+@media  (max-width:1250px){
+
+    .container{
+        width: 1100px;
+    }
+
+    .sect_img{
+        width: 100%;
+        margin-left: 60px;
+    }
+}
+
+@media  (max-width:1150px){
+
+    .container{
+        width: 1000px;
+    }
+}
+
+@media  (max-width:1050px){
+
+    .container{
+        width: 900px;
+    }
+
+    .sect_li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100px;
+        text-align: center;
+    }
+
+    .sect_text{
+        font-size: 12px;
+        position: relative;
+        right: 10px;
+    }
+}
+
+@media  (max-width:950px){
+
+    .container{
+        width: 800px;
+    }
+}
+
+@media  (max-width:850px){
+
+    .container{
+        width: 700px;
+    }
+
+    .sect_ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 520px;
+        margin-left: 95px;
+    }
+
+    .sect_text{
+        font-size: 18px;
+        position: relative;
+        right: 22px;
+        
+    }
+
+}
+
+
+@media  (max-width:750px){
+
+    .container{
+        width: 600px;
+    }
+
+
+    .sect_ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 520px;
+        margin-left: 55px;
+    }
+}
+
+@media  (max-width:650px){
+
+    .container{
+        width: 500px;
+    }
+
+    .sect_ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 400px;
+        margin-left: 55px;
+    }
+
+    .sect_text{
+        font-size: 18px;
+        position: relative;
+        right: 20px;
+        
+    }
+}
+
+@media  (max-width:550px){
+
+    .container{
+        width: 400px;
+    }
+
+    .sect_ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 400px;
+        margin-left: 5px;
+    }
 }
